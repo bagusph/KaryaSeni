@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:background="@drawable/galaxy"
+    tools:context=".Home">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp">
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="#ffffff"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_marginTop="200dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_marginTop="250dp">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#ffffff"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_marginTop="325dp">
+    </TextView>
+
+    <EditText
+    android:id="@+id/ed2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#ffffff"
+    android:layout_marginTop="400dp">
+    </EditText>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Your Password ?"
+        android:textColor="#ffffff"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="200dp">
+    </TextView>
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Sign In"
+        android:textColor="#ffffff"
+        android:background="@drawable/mybutton">
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:layout_marginTop="550dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true">
+    </TextView>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/google_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/faceook"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belum Punya Akun ? Silahkan Daftar Disini"
+        android:textColor="#ffffff"
+        android:layout_marginTop="700dp"
+        android:layout_centerHorizontal="true">
+    </TextView>
+
+</RelativeLayout>
